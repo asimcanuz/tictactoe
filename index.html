@@ -8,6 +8,14 @@
     <title>Tic-Tac-Toe</title>
   </head>
   <body>
+    <div class="game-type">
+      <input type="radio" name="game-type" id="player-vs-player" value="player-vs-player" checked />
+      <label for="player-vs-player">Player vs Player</label>
+      <input type="radio" name="game-type" id="player-vs-computer" value="player-vs-computer" />
+      <label for="player-vs-computer">Player vs Computer</label>
+    </div>
+    <button class="game-start">Oyuna Başla</button>
+
     <div id="game">
       <div class="cell" data-value="0"></div>
       <div class="cell" data-value="1"></div>
